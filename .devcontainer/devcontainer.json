@@ -1,0 +1,17 @@
+{
+	"name": "Node.js & TypeScript",
+	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+	"image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"VisualStudioExptTeam.vscodeintellicode",
+				"christian-kohler.npm-intellisense",
+				"esbenp.prettier-vscode",
+				"vscode-icons-team.vscode-icons",
+				"eamodio.gitlens",
+				"streetsidesoftware.code-spell-checker"
+			]
+		}
+	}
+}
